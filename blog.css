@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blogs{
+    height: 400px;
+    margin: auto auto;
+}
+.blogs .blog{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto auto
+}
+.blogs .blog .diff-blog{
+    height: 300px;
+    width: 48%;
+    display: flex;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid #20933A;
+}
+.diff-blog img{
+    height: 280px;
+    width: 47%;
+    margin: 8px;
+}
+.blog-texte{
+    margin: 15px 10px;
+}
+.blog-texte span{
+    color: #F68F03;
+}
+.blog-texte h3{
+    margin: 0 0 10px 0;
+}
+.blog-texte p{
+    font-size: 1.5vh;
+    margin: 10px 0 0;
+}
+.blog-texte button{
+    height: 40px;
+    border: none;
+    width: 100px;
+    border-radius: 2px;
+    margin: 10px;
+    background-color: #F68F03;
+    float: right;
+}
+.blog-texte button:hover{
+    border: 2px solid #F68F03;
+    color: #F68F03;
+    background-color: #fff;
+    border-radius: 5px;
+}
+@media screen and (max-width: 1850px){
+    .blogs .blog .diff-blog {
+        width: 100%;
+    }
+}
