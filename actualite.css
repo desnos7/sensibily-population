@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.actualites{
+    height: 300px;
+    margin: auto auto;
+}
+.actualite{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto auto
+}
+.diff-actualite{
+    height: 220px;
+    display: flex;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid #20933A;
+    width: 80%;
+}
+.diff-actualite img{
+    height: 200px;
+    width: 47%;
+    margin: 8px;
+}
+.actualite-texte{
+    margin: 15px 10px;
+}
+.actualite-texte span{
+    color: #F68F03;
+}
+.actualite-texte h3{
+    margin: 0 0 10px 0;
+}
+.actualite-texte p{
+    font-size: 1.5vh;
+    margin: 10px 0 0;
+}
+@media screen and (max-width: 1850px){
+    .actualite-texte {
+        width: 100%;
+    }
+}
